@@ -1,8 +1,12 @@
 # pointillism
-Relative to spots science : included spots constraints
+Relative to spots, dots science : included spots constraints
 
 Normal metric : x^2+y^2
 
-Surface metrics distances (surface integrals): 
+Surface metrics distances (surface integrals, minimal path, geodesics): 
 
-Constraints on the surface : sphere, donut(tore)
+Constraints on the surface : sphere, donut(tore) + iso-distance
+
+OR-tools
+
+Example : 3 dots iso-distance on sphere gives a triangle
