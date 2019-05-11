@@ -7,6 +7,6 @@ Surface metrics distances (surface integrals, minimal path, geodesics):
 
 Constraints on the surface : sphere, donut(tore) + iso-distance
 
-OR-tools
+OR-tools, Scilab Scicos
 
 Example : 3 dots iso-distance on sphere gives a triangle
