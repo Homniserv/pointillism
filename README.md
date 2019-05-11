@@ -3,6 +3,6 @@ Relative to spots science : included spots constraints
 
 Normal metric : x^2+y^2
 
-Surface metrics : 
+Surface metrics distances : 
 
 Constraints on the surface : sphere, donut(tore)
