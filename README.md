@@ -9,7 +9,9 @@ Constraints on the surface : sphere, donut(tore) + iso-distance
 
 OR-tools, Scilab Scicos
 
-Example : 3 dots iso-distance on sphere gives a triangle
+Example 1 : 3 dots iso-distance on sphere gives a triangle
+
+Example 2 : know a cone, find equilateral triangle whose (max za - min zc) > 10 for instance
 
 Relative to CP i.e. Constraint Programming(Python Google ORtools), graphs, GPS(Earth locations, satellites best spread)
 
