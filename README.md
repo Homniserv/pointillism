@@ -1,7 +1,7 @@
 # pointillism
-Relative to spots, dots science : included spots constraints
+In mathematics field, relative to spots, dots science : included spots constraints
 
-Normal metric : x^2+y^2
+Normal metric : sqrt(x^2+y^2)
 
 Surface metrics distances (surface integrals, minimal path, geodesics): 
 
