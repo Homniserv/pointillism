@@ -1,7 +1,7 @@
 # pointillism
 In mathematics field, relative to spots, dots science : included spots constraints
 
-Normal metric : sqrt(x^2+y^2)
+Normal metric : d(x,y)=sqrt(x^2+y^2)
 
 Surface metrics distances (surface integrals, minimal path, geodesics): 
 
@@ -16,6 +16,8 @@ Example 2 : known a cone equation, find equilateral triangle whose (max za - min
 or .........................................................whose a=(xa,ya,za)
 
 Example 3 : known 5 locations on Earth, find 3 36000 altitude satellites, so that average distance(sum(sum, by satellites of distances)) is minimal
+
+Example 4 :  d(x,y)>1 AND d(x,y)<2 
 
 Relative to CP i.e. Constraint Programming(Python Google ORtools), graphs, GPS(Earth locations, satellites best spread)
 
