@@ -3,7 +3,7 @@ In mathematics field, relative to spots, dots science : included spots constrain
 
 Normal metric : d(x,y)=sqrt(x^2+y^2)
 
-Surface metrics distances (surface integrals, minimal path, geodesics): 
+Surface metrics distances (surface integrals, minimal path, geodesics (https://moueza.github.io/geodesics/)): 
 
 Constraints on the surface : sphere, donut(tore) + iso-distance
 
