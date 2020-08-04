@@ -19,6 +19,6 @@ Example 3 : known 5 locations on Earth, find 3 36000 altitude satellites, so tha
 
 Example 4 :  d(x,y)>1 AND d(x,y)<2 
 
-Relative to CP i.e. Constraint Programming(Python Google ORtools), graphs, GPS(Earth locations, satellites best spread)
+Relative to CP i.e. Constraint Programming(Python Google ORtools), graphs, GPS(Earth locations, satellites best spread), CSP and COP
 
 By Peter MOUEZA
