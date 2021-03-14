@@ -1,4 +1,6 @@
 # pointillism
+Mathematical pointillism
+
 In mathematics field, relative to spots, dots science : included spots constraints
 
 Normal metric : d(x,y)=sqrt(x^2+y^2)
