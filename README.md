@@ -21,4 +21,8 @@ Example 4 :  d(x,y)>1 AND d(x,y)<2
 
 Relative to CP i.e. Constraint Programming(Python Google ORtools), graphs, GPS(Earth locations, satellites best spread), CSP and COP
 
+Example 5 : density, chemistry Pauli orbitals distributions
+
+Example 6 : Penrose related : with France frontiers, find gravity point, 100km*100km squares (or less by frontiers) so that number of squares is minimal, or average real polygone surface is max, and so on.
+
 By Peter MOUEZA
