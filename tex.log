@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=latex 2022.5.4)  6 OCT 2022 08:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=latex 2022.5.4)  6 OCT 2022 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -376,8 +376,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks32
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
-)
-No file tex.aux.
+) (./tex.aux)
 \openout1 = `tex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -399,6 +398,7 @@ LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 Package hyperref Info: Link coloring OFF on input line 71.
+
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -413,12 +413,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
 LaTeX Info: Redefining \nameref on input line 71.
+
+(./tex.out) (./tex.out)
 \@outlinefile=\write3
 \openout3 = `tex.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Info: Redefining \degres on input line 71.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
@@ -428,6 +426,7 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
 (french.ldf)             reported on input line 71.
 LaTeX Info: Redefining \up on input line 71.
+
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
@@ -507,22 +506,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.91913pt have occurred.
 
-
-Package rerunfilecheck Warning: File `tex.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tex.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A44E46BF1BFB4F9FB9205C58C7C79189;2606.
+Package rerunfilecheck Info: File `tex.out' has not changed.
+(rerunfilecheck)             Checksum: A44E46BF1BFB4F9FB9205C58C7C79189;2606.
  ) 
 Here is how much of TeX's memory you used:
- 12265 strings out of 478288
- 195296 string characters out of 5849316
- 605675 words of memory out of 5000000
- 30315 multiletter control sequences out of 15000+600000
+ 12279 strings out of 478288
+ 195460 string characters out of 5849316
+ 608715 words of memory out of 5000000
+ 30323 multiletter control sequences out of 15000+600000
  478275 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,6n,77p,279b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,6n,77p,599b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tex.dvi (2 pages, 9892 bytes).
+Output written on tex.dvi (2 pages, 12836 bytes).
