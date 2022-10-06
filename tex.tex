@@ -1,0 +1,170 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage[frenchb]{babel}
+
+
+%https://copainsdavant.linternaute.com/p/christelle-hardy-4784401
+
+%doc equivalent https://perso.ens-rennes.fr/math/people/salim.rostam/files/agreg/compl%C3%A9ments/equations_diophantiennes.pdf
+
+%https://tex.stackexchange.com/questions/63895/click-to-go-to-an-anchored-line
+\usepackage{lipsum,hyperref}
+
+
+
+%labelling https://tex.stackexchange.com/questions/31299/tikz-position-with-different-anchors
+
+%https://perso.imt-mines-albi.fr/~gaborit/latex/latex-in-french.html
+%\usepackage[english,francais]{babel}
+%\usepackage[english,french]{babel}
+
+\usepackage[frenchb]{babel}
+
+%https://tex.stackexchange.com/questions/248788/the-very-basics-of-french-accents
+%\documentclass[12pt]{amsart}
+
+\usepackage[utf8]{inputenc}
+
+%entiers sets https://texblog.org/2007/08/27/number-sets-prime-natural-integer-rational-real-and-complex-in-latex/
+%\usepackage{amsfonts} 
+% or 
+\usepackage{amssymb}
+
+%Majuscules accentuees https://www.xm1math.net/doculatex/caracteres_speciaux.html
+\usepackage{eurosym}
+\usepackage{systeme}
+\usepackage{enumerate}
+
+%https://borntocode.fr/latex-customisation-de-listes-a-puces/
+\usepackage{enumitem}
+
+
+%numerotation https://www.xm1math.net/doculatex/structure.html
+\renewcommand{\thesubsection}{\Roman{subsection}}
+
+%latex a) b) c) headings -> https://tex.stackexchange.com/questions/3177/how-to-change-the-numbering-of-part-chapter-section-to-alphabetical-r 
+\renewcommand\thesubsubsection{\alph{subsubsection}}
+
+
+
+%https://tex.stackexchange.com/questions/75667/change-colour-on-chapter-section-headings-lyx
+\usepackage{xcolor}
+\usepackage{sectsty}
+\chapterfont{\color{blue}}  % sets colour of chapters
+\sectionfont{\color{cyan}}
+\partfont{\color{red}} 
+\subsectionfont{\color{purple}} 
+\subsubsectionfont{\color{blue}} 
+
+%https://borntocode.fr/latex-customisation-de-listes-a-puces/
+\definecolor{blueish}{RGB}{51,131,255}
+
+
+
+
+%https://tex.stackexchange.com/questions/137073/writing-mod-in-congruence-problems-without-leading-space
+\usepackage{amsmath}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+
+
+
+\begin{document}
+%Hello world \LaTeX!
+
+%%%%%%%Sommaire + index
+%https://perso.imt-mines-albi.fr/~gaborit/latex/latex-in-french.html
+%\renewcommand{\contentsname}{Sommaire}
+v = 146
+
+\part{Équations diophantiennes du
+  %
+  1\ier{}  degré $a \cdot x+b \cdot y=c$. Autres exemples d'équations diophantiennes.}
+
+
+\textbf{Déf 1}
+On appelle équation diophantienne à \textit{n} inconnues, une équation du type $P(Y_{1},....Y_{n})=0$ avec
+%https://tex.stackexchange.com/questions/261693/latex-element-of-with-two-strokes-%E2%8B%B9
+
+$P \in \mathbb{Z}[X_{1}...X_{n}]$. On cherche les solutions dans $\mathbb{Z}^{n}$.
+\subsection{Équations diophantiennes linéaires}
+%systeme d equations https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/
+%https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics
+% $a_{11}  \cdot x_{i} + ... + z a_{1m}  \cdot x_{m} = b_{1}$
+%\[\begin{cases} a = 2 \\  c = 3 \\ d = 5 \end{cases}\]
+
+% \systeme{ a = 2 , c = 3, d = 5 }     
+
+%Ia
+\subsubsection{Équations diophantiennes du $1^{er}$ degré à 2 inconnues $a \cdot x+b \cdot y=c$ .}
+
+Soit (a,b,c) $\in \mathbb{Z}^3$. On cherche (x,y) $\in \mathbb{Z}^2$  tels que  $a \cdot x + b \cdot y = c$ 
+\hypertarget{here2}{\textcolor{green}{(*1)} }
+%: https://tex.stackexchange.com/questions/63895/click-to-go-to-an-anchored-line
+
+
+
+
+
+\textcolor{cyan}{Prop 1}
+On appelle équation diophantienne à \textit{n} inconnues, une équation du type $P(Y_{1},....Y_{n})=0$Une condition nécessaire et suffisanted'existence d'au moins 1 solution de    \hyperlink{here2}{\textcolor{green}{(*1)}}
+est pgcd(a,b) divise c.
+
+\textcolor{cyan}{Théorème de Bezout}
+
+a,b sont 2 entiers. a et b sont premiers entre eux ssi il existe (u,v) $\in \mathbb{Z}^2$ tels que  $a \cdot u + b \cdot v=1$
+
+%\textbf{}
+\textcolor{cyan}{Prop 2}
+Dans le cas où a et b sont premiers entre eux (breadcrumbs : chapeaux chinois congruence calculatrice HP48), une solution de \hyperlink{here2}{\textcolor{green}{(*1)}} est $(x_0,y_0)=(c \cdot u, c \cdot v)$ avec (u,v) dans le théorème de Bezout.
+
+L'ensemble des solutions de \hyperlink{here2}{\textcolor{green}{(*1)}} est alors S=${(x_0+\lambda \cdot b, y_0-\lambda \cdot b ), \lambda \in \mathbb{Z}}$
+
+
+\textcolor{cyan}{Méthodes de résolution}
+
+%https://tex.stackexchange.com/questions/129951/enumerate-tag-using-the-alphabet-instead-of-numbers
+
+%https://borntocode.fr/latex-customisation-de-listes-a-puces/
+\begin{itemize}[label=\textbullet, font=\LARGE \color{blueish}]
+\item trouver $(x_0,y_0)$ par divisions euclidiennes successives
+\item méthode des congruences : \textbf{exemple} :   $3 \cdot x + 5 \cdot y=1$
+  : on cherche x tel que $3 \cdot x \equiv 1 [5] \Leftrightarrow  x \equiv 2 [5]$. D'où $S={(2 +  5 \cdot \lambda, -1-3 \cdot \lambda ), \lambda \in \mathbb{Z}}$
+  %: https://tex.stackexchange.com/questions/137073/writing-mod-in-congruence-problems-without-leading-space
+  %mod en crochets 1 \mod 5
+
+  %equivalents https://www.geeksforgeeks.org/equality-and-inference-symbols-in-latex/
+  %   \Leftrightarrow https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+\end{itemize}
+
+%Ib
+\subsubsection{Systèmes d'équations diophantiennes linéaires}
+Soit (m,n) $\in \mathbb{Z}^2$,$(a_{11},...,a_{1m},...,a_{n1},...,a_{nm})  \in \mathbb{Z} ^ {nxm}$, $(b_1,...,b_n)   \in \mathbb{Z} ^ n $
+
+On cherche $(x_1,...,x_m)  \in \mathbb{Z} ^ m$ tel que :
+
+%$a_{11} \cdot x_1 =b_1$,$a_{11} \cdot x_1 =b_1$
+% que pr systemes lineraires  \systeme{a=2, n=2}     
+
+  %:https://tex.stackexchange.com/questions/301053/issues-with-systeme
+
+  
+%II
+\subsection{Équations diophantiennes et décomposition en facteurs premiers}
+
+%III
+\subsection{Équations diophantiennes et corps de nombres quadratiques}
+\textbf{Équation de Fermat pour n=3}
+
+
+%IV
+\subsection{Équations diophantiennes et fractions continues}
+
+
+
+
+
+\url{https://linuxconfig.org}
+
+%https://www.ljll.math.upmc.fr/hecht/ftp/old/InfoBase-2005-06/latex/DOC/LaTex-initiation.pdf (notes de bas de pages + marges)
+\footnote{Written by Peter MOUEZA 2012}
+\end{document}
